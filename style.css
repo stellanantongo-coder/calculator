@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.calculator{
+    width: 270px;
+    padding: 25px;
+    background: #171717;
+    border-radius: 30px;
+    box-sizing: border-box;
+    height: 400px;
+    box-shadow: 0 7px  15px rgba(17, 17, 17);
+}
+.display{
+    height: 53px;
+    margin-bottom: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #555555;
+    color:white;
+    text-align: right;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 410;
+    font-family: bodoni;
+}
+.buttons{
+    height:40px;
+    width: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    grid-auto-rows: 20px;
+    column-gap: 20px;
+    row-gap: 35px;
+}
+.normalkey{
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #bdbdbd;
+    font: 410 22px Ariel, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #222;
+    user-select: none;
+    justify-self: center;
+}
+.function1,.function2,.function3,.operator{
+height: 40px;
+    width: 40px;
+    font-size: 24px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #bdbdbd;
+    font: 410 22px Ariel, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #222;
+    user-select: none;
+    justify-self: center;
+}
+.zero{
+    grid-column: span 2;
+    width: 100%;
+    border-radius: 40px;
+    font-size: 24px;
+    background: #bdbdbd;
+    cursor: pointer;
+    color: #222;
+    height: 200%;
+
+}
+.operator{
+background-color: orange;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
